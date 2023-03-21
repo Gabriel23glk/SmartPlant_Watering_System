@@ -1,3 +1,9 @@
+/******************************************************/
+//       THIS IS A GENERATED FILE - DO NOT EDIT       //
+/******************************************************/
+
+#include "Particle.h"
+#line 1 "c:/Users/gabea/Documents/IoT/SmartPlant_Watering_System/src/SmartPlant_Watering_System.ino"
 /*
  * Project SmartPlant_Watering_System
  * Description:Smart watering system
@@ -13,6 +19,12 @@
 #include"Adafruit_BME280.h"
 #include <math.h>
 #include "Air_Quality_Sensor.h"
+void setup();
+void loop();
+void readDustSensor();
+void activatePump();
+void deactivatePump();
+#line 16 "c:/Users/gabea/Documents/IoT/SmartPlant_Watering_System/src/SmartPlant_Watering_System.ino"
 const int OLED_RESET=4;
 const int SoilPin=A2;
 int Soil;
